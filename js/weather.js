@@ -14,6 +14,7 @@ let getWeather = async (e)=>  {
         if(e.keyCode == 13){
             const url = `http://api.openweathermap.org/data/2.5/weather?q=${WEATHER_INPUT.value}&appid=${API_KEY}`
             let obj = await (await fetch(url)).json();
+            console.log(obj)
             weatherFeelsLike.innerHTML = `${Math.round(obj.main.feels_like - 273.15)} °C`
             weatherDescription.innerHTML = obj.weather[0].description
             city.innerHTML = `${obj.name}, ${obj.sys.country}`
