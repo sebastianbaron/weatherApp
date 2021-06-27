@@ -1,9 +1,8 @@
 
 let city = document.getElementById("city");
 const WEATHER_INPUT = document.getElementById('weatherInput')
-const API_KEY = 'e6dbb22d9b4330c64b294f8fbd2dc021'
+const API_KEY = ''
 let weatherDescription = document.getElementById("weatherDescription")
-/* let weatherTemperature = document.getElementById("weatherTemperature") */
 let weatherFeelsLike = document.getElementById("weatherFeelsLike")
 
 let date = document.getElementById("date")
