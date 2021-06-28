@@ -1,7 +1,7 @@
 
 let city = document.getElementById("city");
 const WEATHER_INPUT = document.getElementById('weatherInput')
-const API_KEY = ''
+const API_KEY = '' // add private key to the openweathermap api
 let weatherDescription = document.getElementById("weatherDescription")
 let weatherFeelsLike = document.getElementById("weatherFeelsLike")
 
